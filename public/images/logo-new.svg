@@ -1,0 +1,22 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="22" fill="#3B82F6" stroke="#1E40AF" stroke-width="2"/>
+  
+  <!-- Book icon -->
+  <path d="M12 16h8v12H12V16z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M20 16h8v12h-8V16z" fill="#FFFFFF" opacity="0.7"/>
+  <path d="M16 12v4h8v-4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2z" fill="#FFFFFF"/>
+  
+  <!-- Graduation cap -->
+  <path d="M24 18l8 3v6l-8 3-8-3v-6l8-3z" fill="#FCD34D"/>
+  <path d="M32 21v6l2-1v-4l-2-1z" fill="#F59E0B"/>
+  
+  <!-- Text -->
+  <text x="52" y="20" font-family="Playfair Display, serif" font-size="14" font-weight="700" fill="#1E40AF">Gia sư</text>
+  <text x="52" y="34" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#6B7280">Sinh viên</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="170" cy="12" r="2" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="180" cy="18" r="1.5" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="175" cy="30" r="1" fill="#10B981" opacity="0.7"/>
+</svg>

@@ -1,12 +1,14 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Văn phòng Gia sư Sinh viên",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "logo": "https://giasuongmattroi.com/wp-content/uploads/2019/08/logo-day-kem-lop-7.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Gia sư Sinh viên",
+    "address": "SSDT KTX Trường Đại học Quảng Bình",
+    "phone": "0375572903"
   },
 
   "settings": {
@@ -17,20 +19,22 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "/contact"
+    "label": "Đăng ký ngay",
+    "link": "/danh-cho-gia-su"
   },
 
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "Văn phòng Gia sư Sinh viên - Kết nối gia sư sinh viên chất lượng với phụ huynh và học sinh tại Quảng Bình. Tạo cơ hội việc làm cho sinh viên và giải pháp học tập hiệu quả cho học sinh.",
+    "copyright": "© 2024 Văn phòng Gia sư Sinh viên. All rights reserved.",
+    "address": "SSDT KTX Trường Đại học Quảng Bình",
+    "phone": "0375572903"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_author": "Văn phòng Gia sư Sinh viên",
+    "meta_image": "/images/banner-art.svg",
+    "meta_description": "Nền tảng kết nối gia sư sinh viên uy tín, chuyên nghiệp với phụ huynh và học sinh cần hỗ trợ học tập. Chi phí hợp lý, chất lượng cao."
   }
 }

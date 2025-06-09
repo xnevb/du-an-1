@@ -108,10 +108,9 @@ const Header = () => {
               </li>
             )}
           </ul>
-        </div>
-        {enable && (
-          <div className="d-flex order-1 ml-auto hidden min-w-[200px] items-center justify-end md:order-2 md:ml-0 md:flex">
-            <Link className="btn btn-primary z-0 py-[14px]" href={link} rel="">
+        </div>        {enable && (
+          <div className="order-2 ml-auto flex items-center justify-end md:min-w-[200px]">
+            <Link className="btn btn-primary z-0 py-[14px] px-6 hover:scale-105 transition-transform duration-200" href={link} rel="">
               {label}
             </Link>
           </div>

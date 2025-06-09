@@ -5,10 +5,12 @@ import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
+import projectData from "../../project_data.json";
 
 const Footer = () => {
-  const { copyright, footer_content } = config.params;
+  const { copyright } = config.params;
   const { footer } = menu;
+  const { contact } = projectData;
   return (
     <footer className="section bg-theme-light pb-0">
       <div className="container">
@@ -32,15 +34,37 @@ const Footer = () => {
           })}
           {/* social icons */}
           <div className="md-12 sm:col-6 lg:col-3">
-            <Link href="/" aria-label="Bigspring">
+            <Link href="/" aria-label="Văn phòng Gia sư Sinh viên">
               <Image
                 src={config.site.logo}
                 width={config.site.logo_width}
                 height={config.site.logo_height}
-                alt=""
+                alt="Văn phòng Gia sư Sinh viên"
               />
             </Link>
-            {markdownify(footer_content, "p", "mt-3 mb-6")}
+            <p className="mt-3 mb-6 text-gray-600">
+              Kết nối gia sư sinh viên chất lượng với phụ huynh và học sinh trên toàn quốc.
+            </p>
+            
+            <div className="mb-6">
+              <h4 className="text-h5 font-semibold mb-3">Thông tin liên hệ</h4>
+              <ul className="space-y-2 text-sm">
+                <li className="flex items-center">
+                  <span className="mr-2">📍</span>
+                  <span>{contact.address}</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="mr-2">📞</span>
+                  <span>{contact.phone}</span>
+                </li>
+               
+                <li className="flex items-center">
+                  <span className="mr-2">🕒</span>
+                  <span>{contact.workingHours}</span>
+                </li>
+              </ul>
+            </div>
+            
             <Social source={social} className="social-icons mb-8" />
           </div>
         </div>

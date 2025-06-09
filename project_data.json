@@ -1,0 +1,169 @@
+{
+  "projectInfo": {
+    "name": "Văn phòng Gia sư Sinh viên",
+    "description": "Kết nối gia sư sinh viên chất lượng với phụ huynh và học sinh",
+    "version": "1.0.0"
+  },
+  "context": {
+    "background": "Nền tảng kết nối gia sư sinh viên uy tín, chuyên nghiệp với phụ huynh và học sinh cần hỗ trợ học tập. Chúng tôi cam kết mang đến dịch vụ gia sư chất lượng cao với chi phí hợp lý."
+  },
+  "marketAnalysis": {
+    "advantages": [
+      {
+        "name": "Gia sư Sinh viên Chất lượng",
+        "icon": "/images/user-clock.svg",
+        "content": "Đội ngũ gia sư là sinh viên các trường đại học hàng đầu, được tuyển chọn kỹ lưỡng về chuyên môn và kỹ năng sư phạm."
+      },
+      {
+        "name": "Chi phí Hợp lý",
+        "icon": "/images/love.svg",
+        "content": "Mức học phí phù hợp với điều kiện kinh tế của các gia đình, minh bạch và không phát sinh chi phí ẩn."
+      },
+      {
+        "name": "Linh hoạt Thời gian",
+        "icon": "/images/speedometer.svg",
+        "content": "Thời gian học linh hoạt, có thể sắp xếp theo lịch của học sinh và gia sư, kể cả cuối tuần."
+      },
+      {
+        "name": "Hỗ trợ 24/7",
+        "icon": "/images/cloud.svg",
+        "content": "Đội ngũ tư vấn sẵn sàng hỗ trợ phụ huynh và học sinh mọi lúc, giải đáp thắc mắc nhanh chóng."
+      },
+      {
+        "name": "Theo dõi Tiến độ",
+        "icon": "/images/code.svg",
+        "content": "Báo cáo định kỳ về tiến độ học tập, điểm mạnh và điểm cần cải thiện của học sinh."
+      },
+      {
+        "name": "Đảm bảo Chất lượng",
+        "icon": "/images/oop.svg",
+        "content": "Cam kết thay gia sư miễn phí nếu không phù hợp, đảm bảo sự hài lòng của phụ huynh."
+      }
+    ]
+  },
+  "objectives": {
+    "specificGoals": [
+      "Kết nối gia sư sinh viên uy tín với phụ huynh cần tìm gia sư",
+      "Cung cấp dịch vụ gia sư chất lượng cao với chi phí hợp lý",
+      "Hỗ trợ sinh viên có thêm thu nhập từ việc dạy kèm",
+      "Nâng cao chất lượng giáo dục và kết quả học tập của học sinh",
+      "Xây dựng cộng đồng gia sư - học sinh tích cực và hiệu quả"
+    ]
+  },
+  "operatingModel": {
+    "process": [
+      {
+        "step": 1,
+        "title": "Đăng ký Thông tin",
+        "description": "Gia sư/Phụ huynh đăng ký thông tin cá nhân và yêu cầu cụ thể",
+        "icon": "/images/user-clock.svg"
+      },
+      {
+        "step": 2,
+        "title": "Tư vấn & Kết nối",
+        "description": "Đội ngũ tư vấn sẽ kết nối gia sư phù hợp với yêu cầu của phụ huynh",
+        "icon": "/images/speedometer.svg"
+      },
+      {
+        "step": 3,
+        "title": "Gặp gỡ & Thỏa thuận",
+        "description": "Gia sư và phụ huynh gặp gỡ, thống nhất về lịch học và mức học phí",
+        "icon": "/images/love.svg"
+      },
+      {
+        "step": 4,
+        "title": "Bắt đầu Học",
+        "description": "Gia sư bắt đầu dạy kèm và báo cáo tiến độ định kỳ cho phụ huynh",
+        "icon": "/images/code.svg"
+      }
+    ]
+  },
+  "expectedOutcomes": [
+    "Thu nhập ổn định từ 3-8 triệu/tháng tùy theo số lớp dạy",
+    "Rèn luyện kỹ năng sư phạm và giao tiếp",
+    "Xây dựng mối quan hệ tốt với học sinh và phụ huynh",
+    "Tích lũy kinh nghiệm giảng dạy cho tương lai",
+    "Được hỗ trợ tư vấn và đào tạo kỹ năng dạy học"
+  ],
+  "faq": [
+    {
+      "question": "🎯 Làm thế nào để đăng ký làm gia sư một cách nhanh chóng?",
+      "answer": "Quy trình đăng ký cực kỳ đơn giản! Bạn chỉ cần: ✅ Điền form đăng ký trực tuyến với thông tin cá nhân, trường học, chuyên ngành và môn dạy ✅ Upload CV và bảng điểm (nếu có) ✅ Chúng tôi sẽ liên hệ tư vấn và sắp xếp lớp phù hợp trong vòng 24h. Đặc biệt, sinh viên xuất sắc sẽ được ưu tiên!"
+    },
+    {
+      "question": "💰 Mức học phí gia sư hấp dẫn như thế nào?",
+      "answer": "Học phí cạnh tranh và minh bạch: 💵 Cấp Tiểu học: 80.000 - 120.000 VNĐ/buổi 💵 Cấp THCS: 100.000 - 150.000 VNĐ/buổi 💵 Cấp THPT: 120.000 - 200.000 VNĐ/buổi. Mức phí được thỏa thuận dựa trên kinh nghiệm, chuyên môn và kết quả giảng dạy. Gia sư xuất sắc có thể nhận mức phí cao hơn!"
+    },
+    {
+      "question": "🏆 Làm sao đảm bảo chất lượng gia sư tốt nhất?",
+      "answer": "Chúng tôi có quy trình tuyển chọn nghiêm ngặt: 🔍 Kiểm tra học lực, bảng điểm và chứng chỉ 🔍 Phỏng vấn trực tiếp về kỹ năng sư phạm 🔍 Đào tạo phương pháp giảng dạy hiệu quả 🔍 Theo dõi và đánh giá định kỳ. Cam kết thay gia sư MIỄN PHÍ nếu không phù hợp sau 3 buổi đầu!"
+    },
+    {
+      "question": "⏰ Lịch học có thực sự linh hoạt không?",
+      "answer": "Tuyệt đối linh hoạt! 📅 Học buổi tối (18h-21h) phù hợp sinh viên 📅 Cuối tuần (thứ 7, chủ nhật) 📅 Lịch học có thể điều chỉnh theo lịch thi, lịch học của sinh viên 📅 Hỗ trợ học online khi cần thiết. Mục tiêu là tạo điều kiện tốt nhất cho cả gia sư và học sinh!"
+    },
+    {
+      "question": "🤝 Có hỗ trợ gì cho gia sư trong quá trình dạy?",
+      "answer": "Hỗ trợ toàn diện cho gia sư: 📚 Cung cấp tài liệu giảng dạy chất lượng cao 📚 Đào tạo kỹ năng sư phạm và giao tiếp 📚 Tư vấn phương pháp giảng dạy hiệu quả 📚 Hỗ trợ giải quyết khó khăn trong quá trình dạy 📚 Cộng đồng gia sư chia sẻ kinh nghiệm. Chúng tôi luôn đồng hành cùng bạn!"
+    },
+    {
+      "question": "🎓 Cơ hội phát triển cho gia sư như thế nào?",
+      "answer": "Nhiều cơ hội phát triển hấp dẫn: 🌟 Tham gia các khóa đào tạo nâng cao kỹ năng 🌟 Cơ hội trở thành gia sư chính thức của trung tâm 🌟 Được giới thiệu nhiều lớp học với mức phí cao 🌟 Xây dựng danh tiếng và thương hiệu cá nhân 🌟 Cơ hội làm việc tại các trung tâm giáo dục uy tín sau khi tốt nghiệp!"
+    }
+  ],
+  "contact": {
+    "address": "KTX Trường Đại học Quảng Bình",
+    "phone": "0375572903",
+    "workingHours": "Thứ 2 - Chủ nhật: 8:00 - 22:00"
+  },  "services": [
+    {
+      "title": "Dịch vụ Gia sư Toán - Lý - Hóa",
+      "content": "Đội ngũ gia sư chuyên môn cao từ các trường Đại học Bách Khoa, Khoa học Tự nhiên. Phương pháp giảng dạy hiện đại, dễ hiểu, giúp học sinh nắm vững kiến thức và đạt điểm cao trong các kỳ thi.",
+      "images": [
+        "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=800&q=80",
+        "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
+        "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+      ],
+      "button": {
+        "enable": true,
+        "label": "Đăng ký ngay",
+        "link": "/danh-cho-phu-huynh"
+      }
+    },
+    {
+      "title": "Gia sư Tiếng Anh - Văn - Sử - Địa",
+      "content": "Gia sư từ các trường Đại học Ngoại ngữ, Sư phạm với kinh nghiệm giảng dạy phong phú. Tập trung phát triển kỹ năng ngôn ngữ, tư duy phản biện và kiến thức xã hội toàn diện.",
+      "images": [
+        "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&q=80",
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+      ],
+      "button": {
+        "enable": true,
+        "label": "Tìm hiểu thêm",
+        "link": "/danh-cho-phu-huynh"
+      }
+    }
+  ],
+  "banner": {
+    "title": "Kết nối **Gia sư Sinh viên** chất lượng với Phụ huynh",
+    "content": "Nền tảng uy tín giúp phụ huynh tìm kiếm gia sư sinh viên phù hợp cho con em. Chi phí hợp lý, chất lượng đảm bảo, quy trình minh bạch.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
+    "button": {
+      "enable": true,
+      "label": "Đăng ký ngay",
+      "link": "/danh-cho-phu-huynh"
+    }
+  },
+  "call_to_action": {
+    "title": "🚀 Sẵn sàng khởi đầu hành trình tri thức cùng chúng tôi?",
+    "content": "Hãy tham gia ngay hôm nay để kết nối với những gia sư tài năng nhất hoặc trở thành một phần của đội ngũ giáo viên ưu tú. Cùng nhau xây dựng tương lai giáo dục tốt đẹp hơn!",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
+    "image_alt": "Sinh viên đang học tập cùng gia sư",
+    "button": {
+      "enable": true,
+      "label": "Liên hệ ngay",
+      "link": "/contact"
+    }
+  }
+}

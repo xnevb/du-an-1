@@ -6,29 +6,35 @@ import HomeBanner from "@layouts/partials/HomeBanner";
 import HomeFeatures from "@layouts/partials/HomeFeatures";
 import Services from "@layouts/partials/Services";
 import Workflow from "@layouts/partials/Workflow";
-import { getListPage } from "../lib/contentParser";
+import projectData from "../project_data.json";
 
 const Home = async () => {
-  const homePage = await getListPage("content/_index.md");
-  const { frontmatter } = homePage;
-  const { banner, feature, services, workflow, call_to_action } = frontmatter;
+  const {
+    projectInfo,
+    banner,
+    marketAnalysis,
+    operatingModel,
+    services,
+    call_to_action
+  } = projectData;
+
   const { title } = config.site;
 
   return (
     <>
-      <SeoMeta title={title} />
+      <SeoMeta title={projectInfo.name} />
 
       {/* Banner */}
       <HomeBanner banner={banner} />
 
       {/* Features */}
-      <HomeFeatures feature={feature} />
+      <HomeFeatures advantages={marketAnalysis.advantages} />
 
       {/* services */}
       <Services services={services} />
 
       {/* workflow */}
-      <Workflow workflow={workflow} />
+      <Workflow process={operatingModel.process} />
 
       {/* Cta */}
       <Cta cta={call_to_action} />

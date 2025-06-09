@@ -1,33 +1,51 @@
-import { markdownify } from "@lib/utils/textConverter";
+"use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
-const HomeFeatures = ({ feature }) => {
+const HomeFeatures = ({ advantages }) => {
   return (
     <section className="section bg-theme-light">
       <div className="container">
-        <div className="text-center">
-          <h2>{markdownify(feature.title)}</h2>
-        </div>
+        <motion.div
+          className="text-center"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-h2 font-bold">Lợi thế Cạnh tranh</h2>
+          <p className="mt-4 text-lg">Những ưu điểm vượt trội khi chọn dịch vụ của chúng tôi</p>
+        </motion.div>
         <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
-          {feature.features.map((item, i) => (
-            <div
-              className="feature-card rounded-xl bg-white p-5 pb-8 text-center"
-              key={`feature-${i}`}
+          {advantages.map((item, i) => (
+            <motion.div
+              className="feature-card rounded-xl bg-white p-5 pb-8 text-center hover:shadow-lg transition-shadow duration-300"
+              key={`advantage-${i}`}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: i * 0.1 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -5 }}
             >
               {item.icon && (
-                <Image
-                  className="mx-auto"
-                  src={item.icon}
-                  width={30}
-                  height={30}
-                  alt=""
-                />
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Image
+                    className="mx-auto"
+                    src={item.icon}
+                    width={40}
+                    height={40}
+                    alt={item.name}
+                  />
+                </motion.div>
               )}
               <div className="mt-4">
-                {markdownify(item.name, "h3", "h5")}
-                <p className="mt-3">{item.content}</p>
+                <h3 className="text-h5 font-semibold">{item.name}</h3>
+                <p className="mt-3 text-gray-600">{item.content}</p>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -1,12 +1,12 @@
 ---
-title: "Contact Us"
+title: "Liên hệ với chúng tôi"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Tại sao bạn nên liên hệ với chúng tôi!
+  description: Văn phòng Gia sư Sinh viên là nền tảng kết nối uy tín giữa gia sư sinh viên và phụ huynh, học sinh tại Quảng Bình. Chúng tôi cam kết mang đến dịch vụ chất lượng cao với chi phí hợp lý.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Điện thoại: 0375572903"
+    - "Email: [giasuquangbinh@gmail.com](mailto:giasuquangbinh@gmail.com)"
+    - "Địa chỉ: SSDT KTX Trường Đại học Quảng Bình"
 ---

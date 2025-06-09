@@ -1,71 +1,58 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Trang chủ",
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
+      "name": "Dành cho Gia sư",
+      "url": "/danh-cho-gia-su"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "Dành cho Phụ huynh",
+      "url": "/danh-cho-phu-huynh"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Quy trình",
+      "url": "/quy-trinh"
     },
     {
-      "name": "FAQ",
+      "name": "Hỏi đáp",
       "url": "/faq"
+    },
+    {
+      "name": "Liên hệ",
+      "url": "/contact"
     }
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Dịch vụ",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Gia sư Toán - Lý - Hóa",
+          "url": "/danh-cho-phu-huynh"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "Gia sư Văn - Anh - Sử - Địa",
+          "url": "/danh-cho-phu-huynh"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Hỗ trợ",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        }
-      ]
-    },
-    {
-      "name": "Support",
-      "menu": [
-        {
-          "text": "FAQ",
+          "text": "Hỏi đáp",
           "url": "/faq"
         },
         {
-          "text": "Privacy Policy",
-          "url": "#"
+          "text": "Quy trình",
+          "url": "/quy-trinh"
         },
         {
-          "text": "Terms & Conditions",
-          "url": "#"
+          "text": "Liên hệ",
+          "url": "/contact"
         }
       ]
     }
