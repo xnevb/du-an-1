@@ -161,7 +161,7 @@ const TutorRegistration = () => {
                       <input
                         {...register("university")}
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200"
-                        placeholder="Nhập tên trường"
+                        placeholder="Ví dụ: Đại học Quảng Bình"
                       />
                       {errors.university && (
                         <p className="text-red-500 text-sm mt-1">{errors.university.message}</p>
@@ -177,7 +177,7 @@ const TutorRegistration = () => {
                       <input
                         {...register("major")}
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200"
-                        placeholder="Nhập chuyên ngành"
+                        placeholder="Ví dụ: Sư phạm Toán, Sư phạm KHTN, Sư phạm Văn, Sư phạm Sử-Địa, Sư phạm Tiếng Anh"
                       />
                       {errors.major && (
                         <p className="text-red-500 text-sm mt-1">{errors.major.message}</p>
@@ -191,7 +191,7 @@ const TutorRegistration = () => {
                       <input
                         {...register("subjects")}
                         className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200"
-                        placeholder="Ví dụ: Toán, Lý, Hóa"
+                        placeholder="Ví dụ: Toán, KHTN (Lý-Hóa-Sinh), Văn, Sử, Địa, Tiếng Anh"
                       />
                       {errors.subjects && (
                         <p className="text-red-500 text-sm mt-1">{errors.subjects.message}</p>

@@ -8,11 +8,10 @@
     "background": "Nền tảng kết nối gia sư sinh viên uy tín, chuyên nghiệp với phụ huynh và học sinh cần hỗ trợ học tập. Chúng tôi cam kết mang đến dịch vụ gia sư chất lượng cao với chi phí hợp lý."
   },
   "marketAnalysis": {
-    "advantages": [
-      {
+    "advantages": [      {
         "name": "Gia sư Sinh viên Chất lượng",
         "icon": "/images/user-clock.svg",
-        "content": "Đội ngũ gia sư là sinh viên các trường đại học hàng đầu, được tuyển chọn kỹ lưỡng về chuyên môn và kỹ năng sư phạm."
+        "content": "Đội ngũ gia sư là sinh viên Đại học Quảng Bình các ngành Sư phạm (Toán, KHTN, Văn, Sử-Địa, Tiếng Anh), được tuyển chọn kỹ lưỡng về chuyên môn và kỹ năng sư phạm."
       },
       {
         "name": "Chi phí Hợp lý",
@@ -117,8 +116,8 @@
     "workingHours": "Thứ 2 - Chủ nhật: 8:00 - 22:00"
   },  "services": [
     {
-      "title": "Dịch vụ Gia sư Toán - Lý - Hóa",
-      "content": "Đội ngũ gia sư chuyên môn cao từ các trường Đại học Bách Khoa, Khoa học Tự nhiên. Phương pháp giảng dạy hiện đại, dễ hiểu, giúp học sinh nắm vững kiến thức và đạt điểm cao trong các kỳ thi.",
+      "title": "Dịch vụ Gia sư Sư phạm Toán - KHTN",
+      "content": "Đội ngũ gia sư chuyên môn cao từ khoa Sư phạm Toán và Khoa học Tự nhiên - Đại học Quảng Bình. Phương pháp giảng dạy hiện đại, dễ hiểu, giúp học sinh nắm vững kiến thức và đạt điểm cao trong các kỳ thi.",
       "images": [
         "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=800&q=80",
         "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&q=80",
@@ -131,8 +130,8 @@
       }
     },
     {
-      "title": "Gia sư Tiếng Anh - Văn - Sử - Địa",
-      "content": "Gia sư từ các trường Đại học Ngoại ngữ, Sư phạm với kinh nghiệm giảng dạy phong phú. Tập trung phát triển kỹ năng ngôn ngữ, tư duy phản biện và kiến thức xã hội toàn diện.",
+      "title": "Gia sư Sư phạm Tiếng Anh - Văn - Sử - Địa",
+      "content": "Gia sư từ các ngành Sư phạm Tiếng Anh, Văn học, Sử - Địa tại Đại học Quảng Bình với kinh nghiệm giảng dạy phong phú. Tập trung phát triển kỹ năng ngôn ngữ, tư duy phản biện và kiến thức xã hội toàn diện.",
       "images": [
         "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&q=80",
         "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
